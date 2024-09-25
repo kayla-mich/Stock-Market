@@ -1,7 +1,7 @@
 name: Trading Bot
 
 on:
-  push:   # This job will run every time a push is made to the repository
+  push:  
   schedule:
     # This cron job runs every hour, you can modify it as needed
           - cron: '0 * * * *'
