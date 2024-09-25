@@ -8,7 +8,6 @@ on:
 
 jobs:
   execute-trading-script:
-    # The job will run on the latest Ubuntu virtual environment
     runs-on: ubuntu-latest
 
     steps:
