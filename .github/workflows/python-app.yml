@@ -14,11 +14,11 @@ jobs:
     steps:
     - name: Check out repository
       # This step checks out the repository where the code is located
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Set up Python environment
       # Set up the correct Python version for your script
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v3
       with:
         python-version: '3.10'
 
